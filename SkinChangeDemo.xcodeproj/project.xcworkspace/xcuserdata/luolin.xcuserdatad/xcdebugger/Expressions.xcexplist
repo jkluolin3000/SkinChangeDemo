@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[UIView(ThemeManager) onThemeWillChange]:UIView+ThemeManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.backgroundColorName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController themeBtnPressed:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ThemeConfig reloadCurrentColorScheme]:ThemeConfig.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentColorSchemeDic">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UP91ThemeManager init]:UP91ThemeManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UP91ThemeManager getUP91ColorWithScheme:]:UP91ThemeManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.themesColorInfo ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIView(ThemeManager) setBackgroundColorName:]:UIView+ThemeManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.backgroundColorName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

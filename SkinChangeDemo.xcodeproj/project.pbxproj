@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE800FBA1C5F092300CC5204 /* UIActivityIndicatorView+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800F9B1C5F092300CC5204 /* UIActivityIndicatorView+ThemeManager.m */; };
+		AE800FBB1C5F092300CC5204 /* UIButton+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800F9D1C5F092300CC5204 /* UIButton+ThemeManager.m */; };
+		AE800FBC1C5F092300CC5204 /* UIColor+Change.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800F9F1C5F092300CC5204 /* UIColor+Change.m */; };
+		AE800FBD1C5F092300CC5204 /* UIImage+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FA11C5F092300CC5204 /* UIImage+ThemeManager.m */; };
+		AE800FBE1C5F092300CC5204 /* UIImageView+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FA31C5F092300CC5204 /* UIImageView+ThemeManager.m */; };
+		AE800FBF1C5F092300CC5204 /* UILabel+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FA51C5F092300CC5204 /* UILabel+ThemeManager.m */; };
+		AE800FC01C5F092300CC5204 /* UITabBarItem+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FA71C5F092300CC5204 /* UITabBarItem+ThemeManager.m */; };
+		AE800FC11C5F092300CC5204 /* UITabelView+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FA91C5F092300CC5204 /* UITabelView+ThemeManager.m */; };
+		AE800FC21C5F092300CC5204 /* UITabelViewCell+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FAB1C5F092300CC5204 /* UITabelViewCell+ThemeManager.m */; };
+		AE800FC31C5F092300CC5204 /* UITextField+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FAD1C5F092300CC5204 /* UITextField+ThemeManager.m */; };
+		AE800FC41C5F092300CC5204 /* UITextView+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FAF1C5F092300CC5204 /* UITextView+ThemeManager.m */; };
+		AE800FC51C5F092300CC5204 /* UIView+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FB11C5F092300CC5204 /* UIView+ThemeManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE800FC61C5F092300CC5204 /* UIWebView+ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FB31C5F092300CC5204 /* UIWebView+ThemeManager.m */; };
+		AE800FC71C5F092300CC5204 /* UP91ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FB51C5F092300CC5204 /* UP91ThemeManager.m */; };
+		AE800FCC1C5F0D6E00CC5204 /* ThemeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AE800FCB1C5F0D6E00CC5204 /* ThemeConfig.m */; };
+		AE800FD51C5F0E9C00CC5204 /* ThemeConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE800FD41C5F0E9C00CC5204 /* ThemeConfig.plist */; };
+		AE800FD81C5F0F4300CC5204 /* DarkTheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE800FD61C5F0F4300CC5204 /* DarkTheme.bundle */; };
+		AE800FD91C5F0F4300CC5204 /* LightTheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE800FD71C5F0F4300CC5204 /* LightTheme.bundle */; };
+		AED6EC1A1C5B41FB0052E16C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AED6EC191C5B41FB0052E16C /* main.m */; };
+		AED6EC1D1C5B41FB0052E16C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED6EC1C1C5B41FB0052E16C /* AppDelegate.m */; };
+		AED6EC201C5B41FB0052E16C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED6EC1F1C5B41FB0052E16C /* ViewController.m */; };
+		AED6EC251C5B41FB0052E16C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED6EC241C5B41FB0052E16C /* Images.xcassets */; };
+		AED6EC281C5B41FB0052E16C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AED6EC261C5B41FB0052E16C /* LaunchScreen.xib */; };
+		AED6EC341C5B41FB0052E16C /* SkinChangeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AED6EC331C5B41FB0052E16C /* SkinChangeDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AED6EC2E1C5B41FB0052E16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED6EC0C1C5B41FB0052E16C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED6EC131C5B41FB0052E16C;
+			remoteInfo = SkinChangeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE800F9A1C5F092300CC5204 /* UIActivityIndicatorView+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800F9B1C5F092300CC5204 /* UIActivityIndicatorView+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800F9C1C5F092300CC5204 /* UIButton+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800F9D1C5F092300CC5204 /* UIButton+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800F9E1C5F092300CC5204 /* UIColor+Change.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Change.h"; sourceTree = "<group>"; };
+		AE800F9F1C5F092300CC5204 /* UIColor+Change.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Change.m"; sourceTree = "<group>"; };
+		AE800FA01C5F092300CC5204 /* UIImage+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FA11C5F092300CC5204 /* UIImage+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FA21C5F092300CC5204 /* UIImageView+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FA31C5F092300CC5204 /* UIImageView+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FA41C5F092300CC5204 /* UILabel+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FA51C5F092300CC5204 /* UILabel+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FA61C5F092300CC5204 /* UITabBarItem+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FA71C5F092300CC5204 /* UITabBarItem+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FA81C5F092300CC5204 /* UITabelView+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabelView+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FA91C5F092300CC5204 /* UITabelView+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabelView+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FAA1C5F092300CC5204 /* UITabelViewCell+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabelViewCell+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FAB1C5F092300CC5204 /* UITabelViewCell+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabelViewCell+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FAC1C5F092300CC5204 /* UITextField+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FAD1C5F092300CC5204 /* UITextField+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FAE1C5F092300CC5204 /* UITextView+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FAF1C5F092300CC5204 /* UITextView+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FB01C5F092300CC5204 /* UIView+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FB11C5F092300CC5204 /* UIView+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FB21C5F092300CC5204 /* UIWebView+ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+ThemeManager.h"; sourceTree = "<group>"; };
+		AE800FB31C5F092300CC5204 /* UIWebView+ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+ThemeManager.m"; sourceTree = "<group>"; };
+		AE800FB41C5F092300CC5204 /* UP91ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UP91ThemeManager.h; sourceTree = "<group>"; };
+		AE800FB51C5F092300CC5204 /* UP91ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UP91ThemeManager.m; sourceTree = "<group>"; };
+		AE800FC81C5F0AD500CC5204 /* SkinChange-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SkinChange-prefix.pch"; sourceTree = "<group>"; };
+		AE800FCA1C5F0D6E00CC5204 /* ThemeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeConfig.h; sourceTree = "<group>"; };
+		AE800FCB1C5F0D6E00CC5204 /* ThemeConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeConfig.m; sourceTree = "<group>"; };
+		AE800FD41C5F0E9C00CC5204 /* ThemeConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThemeConfig.plist; sourceTree = "<group>"; };
+		AE800FD61C5F0F4300CC5204 /* DarkTheme.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DarkTheme.bundle; sourceTree = "<group>"; };
+		AE800FD71C5F0F4300CC5204 /* LightTheme.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LightTheme.bundle; sourceTree = "<group>"; };
+		AED6EC141C5B41FB0052E16C /* SkinChangeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinChangeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED6EC181C5B41FB0052E16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED6EC191C5B41FB0052E16C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AED6EC1B1C5B41FB0052E16C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AED6EC1C1C5B41FB0052E16C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AED6EC1E1C5B41FB0052E16C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AED6EC1F1C5B41FB0052E16C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AED6EC241C5B41FB0052E16C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AED6EC271C5B41FB0052E16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AED6EC2D1C5B41FB0052E16C /* SkinChangeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinChangeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED6EC321C5B41FB0052E16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED6EC331C5B41FB0052E16C /* SkinChangeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkinChangeDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED6EC111C5B41FB0052E16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED6EC2A1C5B41FB0052E16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE800F911C5F092300CC5204 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				AE800F9A1C5F092300CC5204 /* UIActivityIndicatorView+ThemeManager.h */,
+				AE800F9B1C5F092300CC5204 /* UIActivityIndicatorView+ThemeManager.m */,
+				AE800F9C1C5F092300CC5204 /* UIButton+ThemeManager.h */,
+				AE800F9D1C5F092300CC5204 /* UIButton+ThemeManager.m */,
+				AE800F9E1C5F092300CC5204 /* UIColor+Change.h */,
+				AE800F9F1C5F092300CC5204 /* UIColor+Change.m */,
+				AE800FA01C5F092300CC5204 /* UIImage+ThemeManager.h */,
+				AE800FA11C5F092300CC5204 /* UIImage+ThemeManager.m */,
+				AE800FA21C5F092300CC5204 /* UIImageView+ThemeManager.h */,
+				AE800FA31C5F092300CC5204 /* UIImageView+ThemeManager.m */,
+				AE800FA41C5F092300CC5204 /* UILabel+ThemeManager.h */,
+				AE800FA51C5F092300CC5204 /* UILabel+ThemeManager.m */,
+				AE800FA61C5F092300CC5204 /* UITabBarItem+ThemeManager.h */,
+				AE800FA71C5F092300CC5204 /* UITabBarItem+ThemeManager.m */,
+				AE800FA81C5F092300CC5204 /* UITabelView+ThemeManager.h */,
+				AE800FA91C5F092300CC5204 /* UITabelView+ThemeManager.m */,
+				AE800FAA1C5F092300CC5204 /* UITabelViewCell+ThemeManager.h */,
+				AE800FAB1C5F092300CC5204 /* UITabelViewCell+ThemeManager.m */,
+				AE800FAC1C5F092300CC5204 /* UITextField+ThemeManager.h */,
+				AE800FAD1C5F092300CC5204 /* UITextField+ThemeManager.m */,
+				AE800FAE1C5F092300CC5204 /* UITextView+ThemeManager.h */,
+				AE800FAF1C5F092300CC5204 /* UITextView+ThemeManager.m */,
+				AE800FB01C5F092300CC5204 /* UIView+ThemeManager.h */,
+				AE800FB11C5F092300CC5204 /* UIView+ThemeManager.m */,
+				AE800FB21C5F092300CC5204 /* UIWebView+ThemeManager.h */,
+				AE800FB31C5F092300CC5204 /* UIWebView+ThemeManager.m */,
+				AE800FB41C5F092300CC5204 /* UP91ThemeManager.h */,
+				AE800FB51C5F092300CC5204 /* UP91ThemeManager.m */,
+				AE800FCA1C5F0D6E00CC5204 /* ThemeConfig.h */,
+				AE800FCB1C5F0D6E00CC5204 /* ThemeConfig.m */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		AE800FCD1C5F0E0600CC5204 /* ThemeResource */ = {
+			isa = PBXGroup;
+			children = (
+				AE800FD61C5F0F4300CC5204 /* DarkTheme.bundle */,
+				AE800FD71C5F0F4300CC5204 /* LightTheme.bundle */,
+				AE800FD41C5F0E9C00CC5204 /* ThemeConfig.plist */,
+			);
+			path = ThemeResource;
+			sourceTree = "<group>";
+		};
+		AED6EC0B1C5B41FB0052E16C = {
+			isa = PBXGroup;
+			children = (
+				AE800FCD1C5F0E0600CC5204 /* ThemeResource */,
+				AE800F911C5F092300CC5204 /* ThemeManager */,
+				AED6EC161C5B41FB0052E16C /* SkinChangeDemo */,
+				AED6EC301C5B41FB0052E16C /* SkinChangeDemoTests */,
+				AED6EC151C5B41FB0052E16C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AED6EC151C5B41FB0052E16C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED6EC141C5B41FB0052E16C /* SkinChangeDemo.app */,
+				AED6EC2D1C5B41FB0052E16C /* SkinChangeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED6EC161C5B41FB0052E16C /* SkinChangeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AED6EC1B1C5B41FB0052E16C /* AppDelegate.h */,
+				AED6EC1C1C5B41FB0052E16C /* AppDelegate.m */,
+				AED6EC1E1C5B41FB0052E16C /* ViewController.h */,
+				AED6EC1F1C5B41FB0052E16C /* ViewController.m */,
+				AED6EC241C5B41FB0052E16C /* Images.xcassets */,
+				AED6EC261C5B41FB0052E16C /* LaunchScreen.xib */,
+				AED6EC171C5B41FB0052E16C /* Supporting Files */,
+			);
+			path = SkinChangeDemo;
+			sourceTree = "<group>";
+		};
+		AED6EC171C5B41FB0052E16C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED6EC181C5B41FB0052E16C /* Info.plist */,
+				AED6EC191C5B41FB0052E16C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AED6EC301C5B41FB0052E16C /* SkinChangeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AED6EC331C5B41FB0052E16C /* SkinChangeDemoTests.m */,
+				AED6EC311C5B41FB0052E16C /* Supporting Files */,
+			);
+			path = SkinChangeDemoTests;
+			sourceTree = "<group>";
+		};
+		AED6EC311C5B41FB0052E16C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED6EC321C5B41FB0052E16C /* Info.plist */,
+				AE800FC81C5F0AD500CC5204 /* SkinChange-prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED6EC131C5B41FB0052E16C /* SkinChangeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED6EC371C5B41FB0052E16C /* Build configuration list for PBXNativeTarget "SkinChangeDemo" */;
+			buildPhases = (
+				AED6EC101C5B41FB0052E16C /* Sources */,
+				AED6EC111C5B41FB0052E16C /* Frameworks */,
+				AED6EC121C5B41FB0052E16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkinChangeDemo;
+			productName = SkinChangeDemo;
+			productReference = AED6EC141C5B41FB0052E16C /* SkinChangeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AED6EC2C1C5B41FB0052E16C /* SkinChangeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED6EC3A1C5B41FB0052E16C /* Build configuration list for PBXNativeTarget "SkinChangeDemoTests" */;
+			buildPhases = (
+				AED6EC291C5B41FB0052E16C /* Sources */,
+				AED6EC2A1C5B41FB0052E16C /* Frameworks */,
+				AED6EC2B1C5B41FB0052E16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED6EC2F1C5B41FB0052E16C /* PBXTargetDependency */,
+			);
+			name = SkinChangeDemoTests;
+			productName = SkinChangeDemoTests;
+			productReference = AED6EC2D1C5B41FB0052E16C /* SkinChangeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED6EC0C1C5B41FB0052E16C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = luolin;
+				TargetAttributes = {
+					AED6EC131C5B41FB0052E16C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AED6EC2C1C5B41FB0052E16C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AED6EC131C5B41FB0052E16C;
+					};
+				};
+			};
+			buildConfigurationList = AED6EC0F1C5B41FB0052E16C /* Build configuration list for PBXProject "SkinChangeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AED6EC0B1C5B41FB0052E16C;
+			productRefGroup = AED6EC151C5B41FB0052E16C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED6EC131C5B41FB0052E16C /* SkinChangeDemo */,
+				AED6EC2C1C5B41FB0052E16C /* SkinChangeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED6EC121C5B41FB0052E16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE800FD51C5F0E9C00CC5204 /* ThemeConfig.plist in Resources */,
+				AE800FD91C5F0F4300CC5204 /* LightTheme.bundle in Resources */,
+				AED6EC281C5B41FB0052E16C /* LaunchScreen.xib in Resources */,
+				AED6EC251C5B41FB0052E16C /* Images.xcassets in Resources */,
+				AE800FD81C5F0F4300CC5204 /* DarkTheme.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED6EC2B1C5B41FB0052E16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED6EC101C5B41FB0052E16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED6EC201C5B41FB0052E16C /* ViewController.m in Sources */,
+				AED6EC1D1C5B41FB0052E16C /* AppDelegate.m in Sources */,
+				AE800FC21C5F092300CC5204 /* UITabelViewCell+ThemeManager.m in Sources */,
+				AE800FC01C5F092300CC5204 /* UITabBarItem+ThemeManager.m in Sources */,
+				AE800FBF1C5F092300CC5204 /* UILabel+ThemeManager.m in Sources */,
+				AE800FBD1C5F092300CC5204 /* UIImage+ThemeManager.m in Sources */,
+				AE800FBA1C5F092300CC5204 /* UIActivityIndicatorView+ThemeManager.m in Sources */,
+				AE800FC31C5F092300CC5204 /* UITextField+ThemeManager.m in Sources */,
+				AE800FC41C5F092300CC5204 /* UITextView+ThemeManager.m in Sources */,
+				AED6EC1A1C5B41FB0052E16C /* main.m in Sources */,
+				AE800FC71C5F092300CC5204 /* UP91ThemeManager.m in Sources */,
+				AE800FC51C5F092300CC5204 /* UIView+ThemeManager.m in Sources */,
+				AE800FBB1C5F092300CC5204 /* UIButton+ThemeManager.m in Sources */,
+				AE800FCC1C5F0D6E00CC5204 /* ThemeConfig.m in Sources */,
+				AE800FBE1C5F092300CC5204 /* UIImageView+ThemeManager.m in Sources */,
+				AE800FBC1C5F092300CC5204 /* UIColor+Change.m in Sources */,
+				AE800FC11C5F092300CC5204 /* UITabelView+ThemeManager.m in Sources */,
+				AE800FC61C5F092300CC5204 /* UIWebView+ThemeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED6EC291C5B41FB0052E16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED6EC341C5B41FB0052E16C /* SkinChangeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AED6EC2F1C5B41FB0052E16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED6EC131C5B41FB0052E16C /* SkinChangeDemo */;
+			targetProxy = AED6EC2E1C5B41FB0052E16C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AED6EC261C5B41FB0052E16C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AED6EC271C5B41FB0052E16C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AED6EC351C5B41FB0052E16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AED6EC361C5B41FB0052E16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED6EC381C5B41FB0052E16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SkinChangeDemoTests/SkinChange-prefix.pch";
+				INFOPLIST_FILE = SkinChangeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AED6EC391C5B41FB0052E16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SkinChangeDemoTests/SkinChange-prefix.pch";
+				INFOPLIST_FILE = SkinChangeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AED6EC3B1C5B41FB0052E16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkinChangeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinChangeDemo.app/SkinChangeDemo";
+			};
+			name = Debug;
+		};
+		AED6EC3C1C5B41FB0052E16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkinChangeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinChangeDemo.app/SkinChangeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED6EC0F1C5B41FB0052E16C /* Build configuration list for PBXProject "SkinChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED6EC351C5B41FB0052E16C /* Debug */,
+				AED6EC361C5B41FB0052E16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED6EC371C5B41FB0052E16C /* Build configuration list for PBXNativeTarget "SkinChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED6EC381C5B41FB0052E16C /* Debug */,
+				AED6EC391C5B41FB0052E16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED6EC3A1C5B41FB0052E16C /* Build configuration list for PBXNativeTarget "SkinChangeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED6EC3B1C5B41FB0052E16C /* Debug */,
+				AED6EC3C1C5B41FB0052E16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AED6EC0C1C5B41FB0052E16C /* Project object */;
+}
